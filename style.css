@@ -1,0 +1,29 @@
+html {
+    font-family: 'FantasqueSansMonoRegular'; 
+}
+body{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,6,73,1) 32%, rgba(98,0,255,1) 100%); 
+    margin: 0;
+    gap: 0;
+}
+#topbar {
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    align-items: center;
+}
+
+#newcard{
+    width: 500px;
+    min-height: 500px;
+    margin: 2em;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+#newcard input, #newcard button {
+    margin: 2em;
+    border-radius: 3px;
+}
