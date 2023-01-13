@@ -11,5 +11,5 @@ function addToTotal() {
     totalPrice += inputNumber;
 
     // Update the total price displayed on the page
-    document.getElementById("totalPrice").innerHTML = totalPrice + "€";
+    document.getElementById("totalPrice").textContent = totalPrice + "€";
 }
