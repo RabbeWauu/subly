@@ -13,6 +13,3 @@ function addToTotal() {
     // Update the total price displayed on the page
     document.getElementById("totalPrice").textContent = totalPrice + "€";
 }
-
-function createCard() {
-}
