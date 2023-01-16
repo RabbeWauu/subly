@@ -14,10 +14,14 @@
 <body>
     <div id="topbar"><h1>Subly</h1><span>FAQ</span><span>Discord</span></div>
     <div id="newcard">
-        <input type="text" id="inputField">
-        <button onclick="addToTotal()">Add to total</button>
+        <input type="text" id="subprice" placeholder="Subscription price">
+        <input type="text" name="subname" id="subname" placeholder="Subscription Name">
+        <button onclick="addToTotal(), createCard()">Add subscription</button>
     </div>
 
+    <div id="subscriptions"></div>
+
+    
     <h4>Total price: <span id="totalPrice">0</span></h4>
 </body>
 
