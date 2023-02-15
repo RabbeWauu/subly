@@ -1,0 +1,65 @@
+html {
+    font-family: 'FantasqueSansMonoRegular'; 
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: rgb(19, 28, 51);
+    margin: 0;
+}
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+    align-items: center;
+    background-color: #313131;
+}
+
+#addsub-submitbutton:hover {
+    cursor: pointer;
+}
+
+input {
+    background-color: #313131;
+    color: white;
+    border: 1px solid #414141;
+    border-radius: 6px;
+    padding: 0.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #818181;
+}
+
+#newcard{
+    display: flex;
+    background-color: #313131;
+    justify-content: center;
+    width: fit-content;
+    height: max-content;
+    margin: 10px auto;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+h4 {
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+#subscriptions {
+    background-color: #313131;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-radius: 6px;
+}
